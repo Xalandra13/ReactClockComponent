@@ -3,8 +3,11 @@ var React = require('react');
 var Clock = React.createClass({
 
     setTime: function() {
+        debugger;
         var currentdate = new Date();
-        var hours = currentdate.getUTCHours() + parseInt(this.props.UTCOffset - 1);
+        var hours = currentdate.getUTCHours() + parseInt(this.props.UTCOffset);
+
+        console.log(hours);
 
         // correct for number over 24, and negatives
         if( hours >= 24 ){ hours -= 24; }

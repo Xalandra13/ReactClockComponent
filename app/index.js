@@ -1,8 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var App = require('./components/App');
+var Clock = require('./components/App');
 
 ReactDOM.render(
-    <App />,
+    <Clock UTCOffset={1} />,
     document.getElementById('app')
 );
