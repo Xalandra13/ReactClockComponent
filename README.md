@@ -19,5 +19,5 @@ Adaptations made:
 * Display the seconds correctly with a leading zero
 * Adjusted Timezone to UTC+1 (Bern, Berlin,...)
 
-## File Structure
-* [Run a local React App](https://www.codecademy.com/articles/react-setup-i)
+## Setup
+* [Run a local React App](https://www.codecademy.com/articles/react-setup-i) - Guide used to setup file structure
